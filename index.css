@@ -117,3 +117,10 @@ textarea:focus {
   	text-align: right;
   }
 }
+
+.banner {
+  text-align: center; 
+  margin: 0px; 
+  width: 100%;
+  background-color: #e3f2fd;
+}
