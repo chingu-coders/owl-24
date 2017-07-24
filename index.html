@@ -2,11 +2,39 @@
 <form action="#">
 
   <header>
-    <h2>Example Responsive Form</h2>
-    <div>This form breaks at 600px and goes from a left-label form to a top-label form. At above 1200px, the labels align right.</div>
+    <h2>Theme - Stylesheet Generator for Reddit</h2>
+    <div>This is a stylesheet generator for styling your subreddit.</div>
   </header>
-  
   <div>
+    <fieldset>
+    
+      <legend id="title5" class="desc">
+        Select a Theme
+      </legend>
+      
+      <div>
+      	<input id="radioDefault_5" name="Field5" type="hidden" value="">
+      	<div>
+      		<input id="Field5_0" name="Field5" type="radio" value="Custom Theme" tabindex="5" checked="checked">
+      		<label class="choice" for="Field5_0">First Choice</label>
+      	</div>
+        <div>
+        	<input id="Field5_1" name="Field5" type="radio" value="Legere" tabindex="6">
+        	<label class="choice" for="Field5_1">Second Choice</label>
+        </div>
+        <div>
+        	<input id="Field5_2" name="Field5" type="radio" value="Apicem Light" tabindex="7">
+        	<label class="choice" for="Field5_2">Third Choice</label>
+        </div>
+      </div>
+    </fieldset>
+  </div>
+  
+	
+	
+	
+	
+	<div>
     <label class="desc" id="title1" for="Field1">Full Name</label>
     <div>
       <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
@@ -30,31 +58,6 @@
     <div>
       <textarea id="Field4" name="Field4" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
     </div>
-  </div>
-    
-  <div>
-    <fieldset>
-    
-      <legend id="title5" class="desc">
-        Select a Choice
-      </legend>
-      
-      <div>
-      	<input id="radioDefault_5" name="Field5" type="hidden" value="">
-      	<div>
-      		<input id="Field5_0" name="Field5" type="radio" value="First Choice" tabindex="5" checked="checked">
-      		<label class="choice" for="Field5_0">First Choice</label>
-      	</div>
-        <div>
-        	<input id="Field5_1" name="Field5" type="radio" value="Second Choice" tabindex="6">
-        	<label class="choice" for="Field5_1">Second Choice</label>
-        </div>
-        <div>
-        	<input id="Field5_2" name="Field5" type="radio" value="Third Choice" tabindex="7">
-        	<label class="choice" for="Field5_2">Third Choice</label>
-        </div>
-      </div>
-    </fieldset>
   </div>
   
   <div>
