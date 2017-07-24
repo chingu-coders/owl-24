@@ -1,15 +1,18 @@
-<link type="text/css" rel="stylesheet" href="index.css" />
-<script type="text/javascript" src="index.js"></script>
-<form action="#">
+<head>
+<link type="text/css" rel="stylesheet" href="index.css" /> <!-- Get Page CSS -->
+<link rel="import" href="/path/to/imports/stuff.html"> <!-- Get Page JS -->
+</head>
 
-  <header>
+<form action="#"> <!-- Start Form -->
+
+  <header> <!-- Start Header -->
     <h2>Theme - Stylesheet Generator for Reddit</h2>
     <div>This is a stylesheet generator for styling your subreddit. To start, click the theme that you want. V0.09</div> 
   </header>
   
-<div id="about" class="hidden">
+<div id="about" class="hidden"> <!-- Hide div untill button is pressed -->
 <div class="content3">
-<textarea rows="10" cols="100">
+<textarea rows="10" cols="100"> <!-- Start text-area filled with Legere's CSS TODO: Make this whole thing an HTML import -->
 /* 
 Theme by u/BurnedR
 Version 1.0.3
@@ -725,10 +728,10 @@ form.toggle.res-sr-style-toggle { padding-top: 0px; }
     border-color: #113b7f;
     color: #113b7f;
 }
-</textarea>
+</textarea> <!-- End text-area filled with Legere's CSS -->
   <p>Now, paste the theme into your subreddit at this link: <a href="https://www.reddit.com/r/YOURSUBREDDIT/about/stylesheet">https://www.reddit.com/r/YOURSUBREDDIT/about/stylesheet</a>.</p>
-  <p>Lastly, download the icons below, and upload them into your subreddit. For the theme to work, you need to name the images exactly as they are named in the list. For a more detailed tutorial, click here to see a video on uploading your icons.</p>
-  <ul>
+  <p>Lastly, download the icons below, and upload them into your subreddit. For the theme to work, you need to name the images exactly as they are named in the list. For a more detailed tutorial, click here to see a video on uploading your icons.</p
+  <ul> <!-- Start list of icons. TODO: Make whole list just one zipped file, with icons named accordingly -->
   <li><a href="https://a.thumbs.redditmedia.com/AdtTd9189f3YnF5f799TXoOqDCAbRQcJ3jYOxeZvSm4.png">icon-wiki</a></li>
   <li><a href="https://b.thumbs.redditmedia.com/e7gLe-Rfo0uRoaKlKWRrcR188JslPh2RT9i4EcDJ0fo.png">icon-discussions</a></li>
   <li><a href="https://b.thumbs.redditmedia.com/04BO5dEU5HtZe0zHWsEjFrPSJLJn0vEikIz4oq3-hwY.png">icon-hot</a></li>
@@ -760,11 +763,11 @@ form.toggle.res-sr-style-toggle { padding-top: 0px; }
     
 </ul>  
 </div>
-</div>
-<input type="button" onclick="unhide(this, 'about') " value="Legere">
+</div> <!-- End hidden div -->
+<input type="button" onclick="unhide(this, 'about') " value="Legere"> <!--Button that unhides div when pressed -->
   <p>&nbsp</p>  
-  <img src="http://i.imgur.com/GQnh1Yb.png"></img>
+  <img src="http://i.imgur.com/GQnh1Yb.png"></img> <!-- Demo Image of Legere -->
 <p>&nbsp</p> 
-<input type="button" onclick="eddited(this, 'about') " value="Eddited">
+<input type="button" onclick="eddited(this, 'about') " value="Eddited"> <!-- WIP Button -->
   <p>&nbsp</p>  
-  <img src="http://i.imgur.com/UF9e5Cf.png" width="1349" height="648"></img>
+  <img src="http://i.imgur.com/UF9e5Cf.png" width="1349" height="648"></img> <!-- Demo Image of Eddited -->
