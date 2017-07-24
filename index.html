@@ -20,8 +20,10 @@
   
 <div id="about" class="hidden">
 <div class="content3">
-<textarea class="form-control" rows="10" cols="100">
-<div w3-include-html="Theme CSS/Legere.html"></div>
+<textarea name="text" rows="20" cols="70">
+<?php
+echo file_get_contents('Theme CSS/Legere.html');
+?>
 </textarea>
   <p>&nbsp;</p>
   <p>Now, paste the theme into your subreddit at this link: <a href="https://www.reddit.com/r/YOURSUBREDDIT/about/stylesheet">https://www.reddit.com/r/YOURSUBREDDIT/about/stylesheet</a>.</p>
