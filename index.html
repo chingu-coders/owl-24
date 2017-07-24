@@ -1,34 +1,18 @@
 <link type="text/css" rel="stylesheet" href="index.css" />
+<script type="text/javascript" async="async" src="index.js"></script>
 <form action="#">
 
   <header>
     <h2>Theme - Stylesheet Generator for Reddit</h2>
     <div>This is a stylesheet generator for styling your subreddit.</div>
   </header>
-  <div>
-    <fieldset>
-    
-      <legend id="title5" class="desc">
-        Select a Theme
-      </legend>
-      
-      <div>
-      	<input id="radioDefault_5" name="Field5" type="hidden" value="">
-      	<div>
-      		<input id="Field5_0" name="Field5" type="radio" value="Custom Theme" tabindex="5" checked="checked">
-      		<label class="choice" for="Field5_0">First Choice</label>
-      	</div>
-        <div>
-        	<input id="Field5_1" name="Field5" type="radio" value="Legere" tabindex="6">
-        	<label class="choice" for="Field5_1">Second Choice</label>
-        </div>
-        <div>
-        	<input id="Field5_2" name="Field5" type="radio" value="Apicem Light" tabindex="7">
-        	<label class="choice" for="Field5_2">Third Choice</label>
-        </div>
-      </div>
-    </fieldset>
-  </div>
+  
+	<select id="mySelect">
+    <option data-placeholder="" value="-1">Legere</option>
+    <option data-placeholder="Enter your name" value="0">Eddited</option>
+    <option data-placeholder="Enter your ID"  value="1">Custom Theme</option>
+</select>
+<input id="myInput" type="text">
   
 	
 	
