@@ -124,3 +124,18 @@ textarea:focus {
   width: 100%;
   background-color: #e3f2fd;
 }
+
+#cssmenu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+#cssmenu ul { margin: 0; padding: 0;}
+#cssmenu li { margin: 0; padding: 0;}
+#cssmenu a { margin: 0; padding: 0;}
+#cssmenu { height: 42px; background-color: #10F9FB; box-shadow: 0px 2px 3px rgba(0,0,0,.4);}
+.nolinkdeco {
+    color: black;
+}
