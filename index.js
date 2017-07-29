@@ -25,10 +25,7 @@ if (item) {
  	//	$('#about').toggle();
 
 		 	
- 		$("#about").load("/legere.html"
- 			,function(){
- 			alert('success');
- 		});
+ 		$("#about").load("/legere.html");
  	}
  	
  });      
