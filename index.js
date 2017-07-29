@@ -18,5 +18,18 @@ if (item) {
     }
 }}
     
-   
+ $(function(){
+
+ 	$('#legere').click(function(){
+
+ 	//	$('#about').toggle();
+
+		 	
+ 		$("#about").load("/legere.html"
+ 			,function(){
+ 			alert('success');
+ 		});
+ 	}
+ 	
+ });      
      
