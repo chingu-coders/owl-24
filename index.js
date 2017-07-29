@@ -25,8 +25,9 @@ if (item) {
 
  	//	$('#about').toggle();
 
-		 	
+		 	alert('1');
  		$("#about").load("legere.html");
+ 	//	$('#about').html('<b>Hello World</b>');
  	});
  	
  });      
