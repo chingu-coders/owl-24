@@ -16,7 +16,8 @@ if (item) {
         item.className = 'hidden';
         clickedButton.value = 'Legere'
     }
-}}
+}
+}
     
  $(function(){
 
@@ -26,7 +27,7 @@ if (item) {
 
 		 	
  		$("#about").load("/legere.html");
- 	}
+ 	});
  	
  });      
      
