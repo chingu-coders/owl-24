@@ -18,18 +18,5 @@ if (item) {
     }
 }}
     
- $(function(){
-
- 	$('#legere').click(function(){
-
- 	//	$('#about').toggle();
-
-
-
- 		$("#about").load("https://github.com/chingu-coders/owl-24/blob/master/legere.html",function(){
- 			alert('success');
- 		});
- 	})
- 	
- });      
+    
      
