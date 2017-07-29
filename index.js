@@ -26,7 +26,7 @@ if (item) {
  	//	$('#about').toggle();
 
 		 	
- 		$("#about").load("/legere.html");
+ 		$("#about").load("legere.html");
  	});
  	
  });      
