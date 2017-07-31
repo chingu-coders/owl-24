@@ -1,7 +1,7 @@
 # Theme for Reddit - by owl24
 Theme for Reddit is an app to make styling your subreddit easier. Demo loacted [here](https://chingu-coders.github.io/owl-24/).
 
-### Team Composition:
+## Team Composition:
 
 | Member        | Role          |
 | ------------- | ------------- |
