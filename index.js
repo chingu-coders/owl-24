@@ -6,29 +6,13 @@
  * Part of the Chingu Cohort
 */
 
-function unhide(clickedButton, divID) {
-var item = document.getElementById(divID);
-if (item) {
-    if(item.className=='hidden'){
-        item.className = 'unhidden' ;
-        clickedButton.value = 'Back'
-    }else{
-        item.className = 'hidden';
-        clickedButton.value = 'Legere'
-    }
-}
-}
-    
- $(function(){
+document.getElementById('Themes').addEventListener('change', function () {
+    var style = this.value == 1 ? 'block' : 'none';
+    document.getElementById('Legere_Hidden').style.display = style;
+});
 
- 	$('#legere').click(function(){
-
- 	//	$('#about').toggle();
-
-		 	alert('1');
- 		$("#about").load("legere.html");
- 	//	$('#about').html('<b>Hello World</b>');
- 	});
- 	
- });      
+document.getElementById('Themes').addEventListener('change', function () {
+    var style = this.value == 0 ? 'block' : 'none';
+    document.getElementById('Eddited_Hidden').style.display = style;
+});     
      
