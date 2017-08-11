@@ -7,6 +7,7 @@
 */
 
 document.getElementById('Themes').addEventListener('change', function () {
+
     var style = this.value == 1 ? 'block' : 'none';
     document.getElementById('Legere_Hidden').style.display = style;
 });
@@ -15,4 +16,10 @@ document.getElementById('Themes').addEventListener('change', function () {
     var style = this.value == 2 ? 'block' : 'none';
     document.getElementById('Eddited_Hidden').style.display = style;
 });     
-     
+   
+document.getElementById('Themes').addEventListener('change', function () {
+    var style = this.value == 3 ? 'block' : 'none';
+    document.getElementById('FBRT').style.display = style;
+}); 
+
+
