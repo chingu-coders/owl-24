@@ -7,12 +7,12 @@
 */
 
 document.getElementById('Themes').addEventListener('change', function () {
-    var style = this.value == 1 ? 'block' : 'none';
+    var style = this.value == 0 ? 'block' : 'none';
     document.getElementById('Legere_Hidden').style.display = style;
 });
 
 document.getElementById('Themes').addEventListener('change', function () {
-    var style = this.value == 0 ? 'block' : 'none';
+    var style = this.value == 1 ? 'block' : 'none';
     document.getElementById('Eddited_Hidden').style.display = style;
 });     
      
