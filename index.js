@@ -44,6 +44,11 @@ document.getElementById('Themes').addEventListener('change', function () {
 $('#legere').click(function(){
  
   		$("#about").load("legere.html");
-  
  
   });  
+
+$('#FBRT').click(function(){
+ 
+  		$("#about").load("FBRT.html");
+ 
+  }); 

@@ -62,15 +62,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </header>
 
   <div id="about" class="hidden">
-          
-      </div>
+      
+            
+  </div>
    
-   <select id="Themes" name="form_select">
+  <div class="row"> 
+  <div class="col-md-offset-2">
+     <select id="Themes" name="form_select">
    <option value="0" >&nbsp;</option>
    <option value="1" >Legere</option>
    <option value ="2">Eddited</option>
    <option value ="3">FBRT</option>
 </select>
+  </div>
+</div>
 
 <div id="Legere" style="display: none;">
   <p>
@@ -89,6 +94,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="FBRT" style="display: none;">
 
   <img src="https://raw.githubusercontent.com/chingu-coders/owl-24/master/Images/FBRT-Demo.png" width="1349" height="648" class="img-thumbnail">
+  <input type="button" class="btn btn-info" onclick="unhide(this, 'about')" value="FBRT" id="FBRT">
   </div>
   </form>
   <script type="text/javascript" src="index.js"></script> <!--Get Page JS -->
