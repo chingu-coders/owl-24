@@ -8,18 +8,30 @@
 
 document.getElementById('Themes').addEventListener('change', function () {
 
-    var style = this.value == 1 ? 'block' : 'none';
-    document.getElementById('Legere_Hidden').style.display = style;
+   
+    var el=document.getElementById('Themes');
+   
+    var style=[];
+
+    for(var i=0;i<el.options.length;i++)
+    {
+    	 style[i] = el.options[i].value == el.selectedIndex ? 'block' : 'none';
+    
+    	if( document.getElementById(el.options[i].innerHTML)!==null)	
+    	 document.getElementById(el.options[i].innerHTML).style.display = 'none';
+
+    }
+ 	
+ 	document.getElementById(el.options[el.selectedIndex].innerHTML).style.display = style[el.selectedIndex];    
+   
 });
 
-document.getElementById('Themes').addEventListener('change', function () {
-    var style = this.value == 2 ? 'block' : 'none';
-    document.getElementById('Eddited_Hidden').style.display = style;
-});     
-   
-document.getElementById('Themes').addEventListener('change', function () {
-    var style = this.value == 3 ? 'block' : 'none';
-    document.getElementById('FBRT').style.display = style;
-}); 
 
 
+
+$('#legere').click(function(){
+ 
+  		$("#about").load("legere.html");
+  
+ 
+  });  
