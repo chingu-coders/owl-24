@@ -32,7 +32,7 @@ document.getElementById('Themes').addEventListener('change', function () {
 	
 
 $('#legere').click(function(){
- alert('test');
+ 
   document.getElementById('about').className='unhidden';
   		$("#about").load("legere.html");
  
