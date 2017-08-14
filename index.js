@@ -46,6 +46,7 @@ document.getElementById('Themes').addEventListener('change', function () {
 $('button').click(function(){
  
   document.getElementById('about').style.display='block';
+  alert(this.id);
   		$("#about").load(this.id+"html");
  
   });  
