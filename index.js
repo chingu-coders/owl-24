@@ -43,15 +43,11 @@ document.getElementById('Themes').addEventListener('change', function () {
 	 }
 
 
-$('#legere').click(function(){
- alert('inside leger');
-  document.getElementById('about').className='unhidden';
-  		$("#about").load("legere.html");
- 
-  });  
+	$('button').click(function(){
+	 
+	 alert(this.id+".html");
+	  document.getElementById('about').className='unhidden';
+	  		$("#about").load(this.id+".html");
+	 
+	  });  
 
-$('#FBRT').click(function(){
- document.getElementById('about').className='unhidden';
-  		$("#about").load("FBRT.html");
- 
-  }); 
