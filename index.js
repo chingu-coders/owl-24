@@ -43,10 +43,15 @@ document.getElementById('Themes').addEventListener('change', function () {
 	 }
 
 
-	$("button").click(function(){
-	 
-	  document.getElementById('about').className='unhidden';
-	  		$("#about").load(this.id+".html");
-	 
-	  });  
+$('#legere').click(function(){
+ 
+  document.getElementById('about').className='unhidden';
+  		$("#about").load("legere.html");
+ 
+  });  
 
+$('#FBRT').click(function(){
+ document.getElementById('about').className='unhidden';
+  		$("#about").load("FBRT.html");
+ 
+  }); 
