@@ -43,7 +43,7 @@ document.getElementById('Themes').addEventListener('change', function () {
 	 }
 
 
-	$('button').click(function(){
+	$("button").click(function(){
 	 
 	 alert(this.id+".html");
 	  document.getElementById('about').className='unhidden';
