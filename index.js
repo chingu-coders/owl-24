@@ -8,7 +8,9 @@
 
 document.getElementById('Themes').addEventListener('change', function () {
 
-   
+
+    document.getElementById('about').className='hidden';
+
     var el=document.getElementById('Themes');
    
     var style=[];
@@ -17,7 +19,7 @@ document.getElementById('Themes').addEventListener('change', function () {
     {
     	 style[i] = el.options[i].value == el.selectedIndex ? 'block' : 'none';
     
-    	if( document.getElementById(el.options[i].innerHTML)!==null)	
+    	if(document.getElementById(el.options[i].innerHTML)!==null)	
     	 document.getElementById(el.options[i].innerHTML).style.display = 'none';
 
     }
@@ -43,6 +45,7 @@ document.getElementById('Themes').addEventListener('change', function () {
 
 $('#legere').click(function(){
  
+  document.getElementById('about').style.display='block';
   		$("#about").load("legere.html");
  
   });  
