@@ -6,136 +6,96 @@
  * Part of the Chingu Cohort
 */
 
-.hidden{
-    display:none;
+body, html {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.unhidden{
-    display:block;
+.parallax { 
+    /* The image used */
+    background-image: url("http://www.pardot.com/content/uploads/2015/10/shutterstock_2838263571.jpg");
+  
+  filter:sepia(100%);
+
+
+    /* Full height */
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+.maintext {
+  font-size: 60px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;}  
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+margin: 0;
+}
+
+html {
+margin: 0;
 }
 
 body {
-  padding: 20px 15%;
-}
-form header {
-  margin: 0 0 20px 0; 
-}
-form header div {
-  font-size: 90%;
-  color: #999;
-}
-form header h2 {
-  margin: 0 0 5px 0;
-}
-form > div {
-  clear: both;
-  
-  padding: 1px;
-  margin: 0 0 10px 0;
-}
-form > div > fieldset > div > div {
-  margin: 0 0 5px 0;
-}
-form > div > label,
-legend {
-	width: 25%;
-  float: left;
-  padding-right: 10px;
-}
-form > div > div,
-form > div > fieldset > div {
-  width: 75%;
-  float: right;
-}
-form > div > fieldset label {
-	font-size: 90%;
-}
-fieldset {
-	border: 0;
-  padding: 0;
+margin: 0;
 }
 
-input[type=text],
-input[type=email],
-input[type=url],
-input[type=password],
-textarea {
-	width: 100%;
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-}
-input[type=text],
-input[type=email],
-input[type=url],
-input[type=password] {
-  width: 50%;
-}
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=url]:focus,
-input[type=password]:focus,
-textarea:focus {
-  outline: 0;
-  border-color: #4697e4;
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color:	#FF7F50;
+    overflow:hidden;
 }
 
-@media (max-width: 600px) {
-  form > div {
-    margin: 0 0 15px 0; 
-  }
-  form > div > label,
-  legend {
-	  width: 100%;
-    float: none;
-    margin: 0 0 5px 0;
-  }
-  form > div > div,
-  form > div > fieldset > div {
-    width: 100%;
-    float: none;
-  }
-  input[type=text],
-  input[type=email],
-  input[type=url],
-  input[type=password],
-  textarea,
-  select {
-    width: 100%; 
-  }
-}
-@media (min-width: 1200px) {
-  form > div > label,
-	legend {
-  	text-align: right;
-  }
+.content {
+    position:absolute;
+    height:90%; /* = 100% - 2*5% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding: 5%;
+    
 }
 
-.banner {
-  text-align: center; 
-  margin: 0px; 
-  width: 100%;
-  background-color: #e3f2fd;
+/*  For responsive images */
+
+.content .rs{
+    width:auto;
+    height:auto;
+    max-height:90%;
+    max-width:100%;
+}
+/*  For responsive images as background */
+
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#fff;
 }
 
-#cssmenu {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 1000;
+.img1{
+    background-image: url('https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg');
 }
-#cssmenu ul { margin: 0; padding: 0;}
-#cssmenu li { margin: 0; padding: 0;}
-#cssmenu a { margin: 0; padding: 0;}
-#cssmenu { height: 42px; background-color: #10F9FB; box-shadow: 0px 2px 3px rgba(0,0,0,.4);}
-.nolinkdeco {
-    color: black;
+.img2{
+    background-image: url('https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg');
+}
+.img3{
+    background-image: url('https://farm4.staticflickr.com/3794/13893055574_3df0ab636b.jpg');
 }
