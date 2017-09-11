@@ -99,3 +99,7 @@ margin: 0;
 .img3{
     background-image: url('https://farm4.staticflickr.com/3794/13893055574_3df0ab636b.jpg');
 }
+
+img:hover {
+    cursor: pointer;
+}
