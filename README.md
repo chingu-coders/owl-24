@@ -3,9 +3,9 @@
 Theme for Reddit is an app about making styling your subreddit easier. Demo loacted [here](https://chingu-coders.github.io/owl-24/).
 
 Ever wanted your subreddit that looks like this:
-[![Before Picture](https://i.imgur.com/W47A9vj.png)]
+[Before Picture](https://i.imgur.com/W47A9vj.png)]
 To look like this?
-[![After Picture](https://i.imgur.com/YMW86hQ.png)]
+[After Picture](https://i.imgur.com/YMW86hQ.png)]
 
 
 ## Team Composition:
