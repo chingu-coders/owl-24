@@ -1,6 +1,6 @@
-[![Stories in Ready](https://badge.waffle.io/chingu-coders/owl-24.png?label=ready&title=Ready)](https://waffle.io/chingu-coders/owl-24?utm_source=badge)
 # Theme for Reddit - by owl24
 Theme for Reddit is an app about making styling your subreddit easier. 
+[![Stories in Ready](https://badge.waffle.io/chingu-coders/owl-24.png?label=ready&title=Ready)](https://waffle.io/chingu-coders/owl-24?utm_source=badge)
 
 
 ---
