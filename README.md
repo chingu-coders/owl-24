@@ -20,8 +20,8 @@ To look something like this?
 Theme for Reddit (Demo loacted [here](https://chingu-coders.github.io/owl-24/)) can help with that. We host the best reddit themes, and provide step by step instructions to make your subreddit better. 
 
 ## Places to check out!
-Want to contribute to the project? Check out ___ here. (WIP)
-Want a theme to be added? Check out ___ here. (WIP)
+* Want to contribute to the project? Check out ___ here. (WIP)
+* Want a theme to be added? Check out ___ here. (WIP)
 
 ## Team Composition:
 
