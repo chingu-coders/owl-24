@@ -8,10 +8,10 @@ Ever wanted your subreddit that looks like this:
 ![Before Picture](https://i.imgur.com/W47A9vj.png)
 
 
-To look like this?
+To look something like this?
 
 
-![After Picture](https://i.imgur.com/YMW86hQ.png)
+![After Picture](https://raw.githubusercontent.com/chingu-coders/owl-24/master/Images/Eddited-Demo.png)
 
 
 ## Team Composition:
