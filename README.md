@@ -1,12 +1,10 @@
 # Theme for Reddit - by owl24
 Theme for Reddit is an app about making styling your subreddit easier. 
+
+## Badges
 [![Stories in Ready](https://badge.waffle.io/chingu-coders/owl-24.png?label=ready&title=Ready)](https://waffle.io/chingu-coders/owl-24?utm_source=badge)
 
-
----
-
-
-
+## Information
 
 Ever wanted your subreddit that looks like this:
 
@@ -21,21 +19,9 @@ To look something like this?
 
 Theme for Reddit (Demo loacted [here](https://chingu-coders.github.io/owl-24/)) can help with that. We host the best reddit themes, and provide step by step instructions to make your subreddit better. 
 
-
----
-
-
-
-
-### Want to contribute to the project? Check out ___ here. (WIP)
-### Want a theme to be added? Check out ___ here. (WIP)
-
-
-
----
-
-
-
+## Places to check out!
+Want to contribute to the project? Check out ___ here. (WIP)
+Want a theme to be added? Check out ___ here. (WIP)
 
 ## Team Composition:
 
