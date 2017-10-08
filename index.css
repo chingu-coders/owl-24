@@ -117,3 +117,9 @@ img:hover {
   background-color: #efefef;
   text-align: center;
 }
+
+
+a { /* Fix text underlining */
+  color: blue;
+  text-decoration: none; /* no underline */
+}
