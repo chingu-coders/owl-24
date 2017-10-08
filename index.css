@@ -11,15 +11,15 @@ body, html {
     font-family: 'Open Sans', sans-serif;
 }
 
-.parallax { 
+.parallax {
     /* The image used */
     background-image: url("http://www.pardot.com/content/uploads/2015/10/shutterstock_2838263571.jpg");
-  
+
   filter:sepia(100%);
 
 
     /* Full height */
-    height: 50%; 
+    height: 50%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -41,7 +41,7 @@ body, html {
   text-align: center;
   color: black;
   background-color: white;
-  font-family: 'Open Sans', sans-serif;}  
+  font-family: 'Open Sans', sans-serif;}
 
 * {
 margin: 0;
@@ -70,7 +70,7 @@ margin: 0;
     height:90%; /* = 100% - 2*5% padding */
     width:90%; /* = 100% - 2*5% padding */
     padding: 5%;
-    
+
 }
 
 /*  For responsive images */
@@ -109,17 +109,27 @@ img:hover {
  */
 
 .footer {
- /* position: absolute;*/
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   padding: 1rem;
+   background-color: #efefef;
+   text-align: center;
 }
 
 
 a { /* Fix text underlining */
   color: blue;
   text-decoration: none; /* no underline */
+}
+
+div.center {
+  height: 200px;
+    width: 400px;
+
+    position: fixed;
+    top: 58%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
 }
