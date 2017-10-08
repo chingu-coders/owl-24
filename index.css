@@ -122,14 +122,3 @@ a { /* Fix text underlining */
   color: blue;
   text-decoration: none; /* no underline */
 }
-
-div.center {
-  height: 200px;
-    width: 400px;
-
-    position: fixed;
-    top: 58%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -200px;
-}
