@@ -15,3 +15,7 @@ Theme for Reddit is an app to make styling your subreddit easier. Demo loacted [
 | ------------- | ------------- |
 | [@devonnaew](https://github.com/devonnaew)      | Overseer |
 
+## Markdown Documents
+* [Code of Conduct](CODE_OF_CONDUCT.md)
+* [License](LICENSE.md)
+
