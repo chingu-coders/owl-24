@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+  Theme - Stylesheet Generator for Reddit
+  Authors: Sriram Krishnan, James Kerrane, Devonnae Williams
+  Created: 7/20/2017
+  Team: Owl 24
+  Part of the Chingu Cohort
+-->
+
+<head>
+
+  <!-- Metadata & SEO-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Mobile Optimization -->
+  <meta name="keywords" content="Reddit, Theme, Stylesheet, CSS, Design, Custom, Easy, Focus"/> <!-- Page Keywords for SEO -->
+  <meta name="description" content="Theme for Reddit is a stylesheet generator, for styling a subreddit you are a moderator of." /> <!-- Description for Search Engine Readability -->
+  <meta name="author" content="Owl24 - Part of a Chingu Cohort"> <!-- Author, for SEO -->
+  <link rel="shortcut icon" href="Images\pageicon32x32"> <!-- Icon for top of page. Should be 32x32px. Not Done Yet.-->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> <!-- Get Font -->
+  <link type="text/css" rel="stylesheet" href="index.css" /> <!--Get Page CSS -->
+
+
+
+</head>
+<body>
+
+
+
+ <div class="parallax">
+   <!--GitHub Corner -->
+   <a href="https://github.com/chingu-coders/owl-24" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#70B7FD; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+   <h1>&nbsp;</h1>
+   <h1>&nbsp;</h1>
+   <h1>&nbsp;</h1>
+   <h4>&nbsp;</h4>
+   <h1 class="maintext">Focus Theme</h1>
+ </div>
+
+<!--    <div class="content3">-->
+<div style="text-align: center">
+      <div class="form-group">
+<h1>&nbsp;</h1>
+        <label for="focus">1. Copy this CSS into your subreddit at this link: <a href="https://www.reddit.com/r/YOURSUBREDDIT/about/stylesheet">https://www.reddit.com/r/YOURSUBREDDIT/about/stylesheet</a>.</label>
+        <p>&nbsp;</p>
+
+
+
+
+        <textarea class="form-control" rows="15" cols="500" style="width:500px; id="focus">
+          .subscribers .word {
+  display: none; }
+
+.subscribers::after {
+  content: "themers"; }
+
+.users-online {
+  display: inline; }
+
+.users-online::before {
+  display: none; }
+
+.users-online .number::before {
+  content: " ("; }
+
+.users-online .word {
+  display: none; }
+
+.users-online::after {
+  content: " here now)"; }
+
+#header-bottom-right {
+  top: 23px !important;
+  left: 0;
+  right: 0;
+  height: 20px;
+  margin-left: 10px;
+  padding: 0;
+  background-color: transparent;
+  text-align: center;
+  font-size: 0; }
+  .res-nightmode #header-bottom-right {
+    background-color: transparent !important; }
+  #header-bottom-right #userbarToggle {
+    border-right: none;
+    background-color: transparent;
+    text-align: center;
+    font-size: 0;
+    line-height: 20px;
+    min-height: auto; }
+    #header-bottom-right #userbarToggle::after {
+      font-size: x-small;
+      content: "show userbar"; }
+    #header-bottom-right #userbarToggle.userbarHide {
+      display: none; }
+    #header-bottom-right #userbarToggle.userbarShow {
+      width: 100%;
+      height: 100%; }
+  #header-bottom-right .separator {
+    font-size: 0;
+    padding-right: 10px; }
+  #header-bottom-right a[href^="https://www.reddit.com/user/"],
+  #header-bottom-right #RESAccountSwitcherIcon,
+  #header-bottom-right #mail,
+  #header-bottom-right #modmail,
+  #header-bottom-right #new_modmail,
+  #header-bottom-right .pref-lang,
+  #header-bottom-right #RESSettingsButton,
+  #header-bottom-right .logout a {
+    display: inline-block;
+    top: 0;
+    background-position: 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    width: 25px;
+    height: 18px; }
+  #header-bottom-right .user {
+    margin-left: 0 !important; }
+    #header-bottom-right .user a[href^="https://www.reddit.com/user/"] {
+      background-image: url(%%icon-acct%%); }
+    #header-bottom-right .user #RESAccountSwitcherIcon {
+      margin-left: 10px !important;
+      background-image: url(%%icon-acct-switcher%%); }
+  #header-bottom-right #mail {
+    background-image: url(%%icon-mail%%); }
+  #header-bottom-right #modmail {
+    background-image: url(%%icon-modmail%%); }
+  #header-bottom-right #new_modmail {
+    background-image: url(%%icon-new-modmail%%); }
+  #header-bottom-right #mail.havemail, #header-bottom-right #modmail.havemail, #header-bottom-right #new_modmail.havemail {
+    border-bottom: 3px solid #FFA500; }
+  #header-bottom-right .pref-lang {
+    background-image: url(%%icon-prefs%%); }
+  #header-bottom-right #RESSettingsButton {
+    background-image: url(%%icon-res-prefs%%); }
+  #header-bottom-right .logout a {
+    background-image: url(%%icon-logout%%); }
+
+#userbarToggle {
+  color: #001f3f; }
+
+#RESAccountSwitcherIconOverlay {
+  top: -9999px !important;
+  left: -9999px !important; }
+
+.pagename {
+  position: absolute;
+  left: 25px;
+  right: 25px;
+  top: 20px;
+  bottom: 18px;
+  text-align: center;
+  font-size: 0; }
+  .pagename a::after {
+    content: "";
+    background: url(%%banner%%) no-repeat center;
+    display: inline-block;
+    width: 100%;
+    height: 100%; }
+
+#sr-header-area {
+  border: none;
+  height: 18px;
+  background-color: transparent; }
+
+#header-bottom-left .tabmenu {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 18px;
+  padding: 2px;
+  text-align: center;
+  overflow: hidden; }
+  #header-bottom-left .tabmenu:hover {
+    overflow: visible; }
+  #header-bottom-left .tabmenu li {
+    margin: 0 2px 0 0;
+    padding: 0 0 2px 0;
+    text-align: center;
+    font-weight: normal; }
+    #header-bottom-left .tabmenu li::after {
+      content: " /";
+      color: #cccccc; }
+    #header-bottom-left .tabmenu li:last-of-type::after {
+      content: ""; }
+    #header-bottom-left .tabmenu li a {
+      border: none;
+      padding: 0 0 2px 0;
+      background-color: transparent;
+      color: #42668a; }
+      #header-bottom-left .tabmenu li a .res-nightmode {
+        color: #42668a; }
+      #header-bottom-left .tabmenu li a:hover {
+        border-bottom: 2px solid #42668a; }
+    #header-bottom-left .tabmenu li.selected a {
+      color: orangered;
+      border-bottom: 2px solid orangered; }
+      #header-bottom-left .tabmenu li.selected a:hover {
+        border-bottom: 2px solid #ff8f66; }
+
+.side {
+  width: 30%;
+  margin: -228px 0 0 0; }
+  .side .spacer {
+    margin: 10px 0 0 10px;
+    width: 100%;
+    max-width: 300px; }
+  .side .login-form-side {
+    border: 1px dashed #3D9970; }
+  .side .spacer:nth-of-type(1) {
+    margin-top: 0; }
+  .side #search input[type=text] {
+    border: 0;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px dashed #3D9970; }
+    .side #search input[type=text]:focus {
+      outline: none; }
+  .side .linkinfo {
+    border: 1px dashed #3D9970;
+    background-color: transparent; }
+  .side .redditname {
+    font-weight: normal;
+    margin-bottom: 0; }
+    .side .redditname a {
+      color: #20503b; }
+  .side .sidebox.create {
+    display: none; }
+  .side .sidecontentbox .content {
+    border-color: #dddddd; }
+  .side .titlebox {
+    clear: both; }
+  .side .usertext-body {
+    padding-top: 5px; }
+    .side .usertext-body a[href*="focus-button"] {
+      display: block;
+      margin-bottom: 10px;
+      text-align: center;
+      color: #3D9970;
+      border: 1px dashed #3D9970;
+      height: 30px;
+      line-height: 30px;
+      font-size: 12px; }
+      .side .usertext-body a[href*="focus-button"]:hover {
+        border-style: solid; }
+    .side .usertext-body a[href^="#/RES_SR_Config/NightModeCompatible"] {
+      display: none; }
+  .side .account-activity-box {
+    margin-bottom: 10px; }
+
+#header-img {
+  position: absolute;
+  top: 65px;
+  left: -30px;
+  height: 50px;
+  width: 50px;
+  background-color: #f6f6f6;
+  border: 5px solid #f6f6f6;
+  border-radius: 50px;
+  z-index: 50; }
+  .res-nightmode #header-img {
+    border-color: #262626;
+    background-color: #262626; }
+  #header-img:hover {
+    height: 45px;
+    width: 45px;
+    border-width: 7.5px; }
+  #header-img.default-header {
+    width: 50px;
+    height: 50px;
+    text-indent: 0;
+    background-image: none;
+    background-color: #3D9970;
+    font-size: 0; }
+    #header-img.default-header:hover {
+      height: 45px;
+      width: 45px; }
+
+.side .morelink {
+  border: 1px dashed #3D9970;
+  border-radius: 0;
+  background-image: none;
+  background-color: transparent;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  text-transform: uppercase; }
+  .side .morelink:hover {
+    background-image: none;
+    border-style: solid; }
+  .side .morelink a {
+    color: #3D9970; }
+  .side .morelink .nub {
+    display: none; }
+
+.sheets,
+#RESStyleSheetTipPane,
+#sr-form .linefield,
+#newlink .formtabs-content,
+#newlink .roundfield,
+#newlink .roundfield .usertext-edit,
+#newlink .markdownEditor-wrapper {
+  width: 100%;
+  max-width: 100%; }
+
+#sr-form .linefield,
+#newlink .formtabs-content,
+#newlink .roundfield {
+  padding: 0;
+  background-color: transparent; }
+
+.roundfield textarea,
+.roundfield input[type=text],
+.roundfield input[type=url],
+.roundfield input[type=password],
+.roundfield input[type=number],
+#compose-message .roundfield select {
+  width: 100%;
+  padding: 0;
+  border: none;
+  border-bottom: 1px dashed #3D9970;
+  background-color: transparent; }
+  .roundfield textarea:focus,
+  .roundfield input[type=text]:focus,
+  .roundfield input[type=url]:focus,
+  .roundfield input[type=password]:focus,
+  .roundfield input[type=number]:focus,
+  #compose-message .roundfield select:focus {
+    outline: none; }
+
+#link-desc, #text-desc {
+  margin-top: 10px; }
+
+.submit_text.enabled {
+  display: block; }
+
+.fancy-toggle-button .option,
+.res-fancy-toggle-button,
+.res-fancy-toggle-button.active,
+span.multi-count,
+span.multi-count.active {
+  border: none;
+  padding: 3px 6px;
+  line-height: normal;
+  background-image: none;
+  background-color: transparent;
+  color: #3D9970;
+  border-bottom: 1px dashed #3D9970; }
+  .fancy-toggle-button .option.remove,
+  .res-fancy-toggle-button.remove,
+  .res-fancy-toggle-button.active.remove,
+  span.multi-count.remove,
+  span.multi-count.active.remove {
+    background-image: none;
+    background-color: transparent;
+    color: #ff4136;
+    border-bottom: 1px dashed #ff4136; }
+
+body.listing-page #siteTable {
+  margin-top: 10px;
+  min-height: 50vh; }
+
+.link {
+  margin: 0;
+  padding: 7.5px 0;
+  border-right: 2px solid transparent; }
+  .link.RES-keyNav-activeThing {
+    border-right: 2px solid #3D9970; }
+  body.res .link:not(.RES-keyNav-activeThing):hover {
+    border-right: 2px solid rgba(61, 153, 112, 0.25); }
+  .link .rank {
+    display: none; }
+  .link .midcol, .link .thumbnail {
+    margin: 5px 0; }
+  .link .entry {
+    padding: 5px;
+    border-right: 0; }
+    .link .entry.RES-keyNav-activeElement {
+      border-right: 0; }
+      .link .entry.RES-keyNav-activeElement, .link .entry.RES-keyNav-activeElement .md-container {
+        background-color: transparent !important; }
+  .link .title {
+    color: #0074D9; }
+    .link .title:visited {
+      color: #85144b; }
+  .link .flat-list a {
+    opacity: 0.5; }
+  .link .flat-list a.comments {
+    opacity: 1; }
+  .link .usertext-body .md {
+    border-color: #c6daef;
+    border-radius: 2px; }
+
+.thumbnail {
+  width: 50px;
+  border-radius: 70px;
+  background-position-x: -10px !important; }
+  .thumbnail img {
+    height: 50px;
+    width: auto; }
+
+.author.submitter, .author.moderator, .flair, .linkflairlabel {
+  border-radius: 2px !important;
+  padding: 2px 5px !important; }
+
+.flair, .linkflairlabel {
+  margin-top: 0 !important;
+  background-color: #999999;
+  color: #ffffff;
+  border: none; }
+
+.link:not(.linkflair) .flairselectbtn {
+  background-color: #ff4136;
+  color: #ffffff;
+  padding: 3px;
+  border-radius: 3px; }
+  .link:not(.linkflair) .flairselectbtn::after {
+    content: " (please add one!)"; }
+
+.flair-red {
+  background-color: #ff4136; }
+
+.linkflair-red .linkflairlabel {
+  background-color: #ff4136; }
+
+.flair-green {
+  background-color: #3D9970; }
+
+.linkflair-green .linkflairlabel {
+  background-color: #3D9970; }
+
+.flair-blue {
+  background-color: #0f64c8; }
+
+.linkflair-blue .linkflairlabel {
+  background-color: #0f64c8; }
+
+.flair-orange {
+  background-color: #ff851b; }
+
+.linkflair-orange .linkflairlabel {
+  background-color: #ff851b; }
+
+.flair-purple {
+  background-color: #B10DC9; }
+
+.linkflair-purple .linkflairlabel {
+  background-color: #B10DC9; }
+
+.flair-yellow {
+  background-color: #EFCE00; }
+
+.linkflair-yellow .linkflairlabel {
+  background-color: #EFCE00; }
+
+.flair-black {
+  background-color: #111111; }
+
+.linkflair-black .linkflairlabel {
+  background-color: #111111; }
+
+.flair-brown {
+  background-color: #954535; }
+
+.linkflair-brown .linkflairlabel {
+  background-color: #954535; }
+
+.footer-parent {
+  background-color: #111111;
+  padding: 30px; }
+  .footer-parent .footer .title {
+    color: #777; }
+  .footer-parent .footer a {
+    color: #e4e4e4; }
+  .footer-parent::before {
+    display: block;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 1em;
+    color: #cccccc;
+    content: "/r/focustheme by /u/Mustermind."; }
+
+#hsts_pixel {
+  position: absolute;
+  top: -9999px;
+  left: -9999px; }
+
+.debuginfo {
+  background-color: #111111; }
+
+body {
+  margin-top: 20px;
+  background-color: #f6f6f6; }
+
+.side, .titlebox form.toggle, .leavemoderator, .icon-menu a {
+  background-color: transparent; }
+
+#header,
+body > .content,
+body.with-listing-chooser.listing-chooser-collapsed > .content,
+body.modtools-page > .content {
+  width: 60%;
+  margin: 10px 30% 10px 10%; }
+
+body.with-listing-chooser .listing-chooser {
+  z-index: 100;
+  top: -20px;
+  background-color: #eaeaea; }
+  body.with-listing-chooser .listing-chooser .grippy {
+    background-color: #f6f6f6; }
+
+.trending-subreddits .rank-spacer, .trending-subreddits .midcol-spacer {
+  width: 0; }
+
+.wiki-page .wiki-page-content {
+  margin: 0; }
+
+.wiki-page .wikititle {
+  margin-left: 0; }
+
+.commentarea .panestack-title, .commentarea .menuarea {
+  margin-right: 0; }
+.commentarea .usertext-edit, .commentarea .markdownEditor-wrapper, .commentarea .md textarea {
+  width: 100%;
+  max-width: none; }
+
+.infobar, .formtabs-content .infobar, #newlink .roundfield.info-notice {
+  margin-right: 0;
+  border: 1px dotted #3D9970;
+  background-color: transparent;
+  padding: 10px; }
+
+#header {
+  background-color: #eeeeee;
+  background-image: url(%%header-background%%);
+  border: none; }
+
+#header-bottom-left {
+  position: relative;
+  height: 200px; }
+
+.side, .tabmenu, #header-bottom-right, #sr-header-area {
+  opacity: 0.45;
+  transition: opacity 0.2s; }
+  .side:hover, .tabmenu:hover, #header-bottom-right:hover, #sr-header-area:hover {
+    opacity: 1; }
+        </textarea>
+      </div>
+        <p>&nbsp;</p>
+        <p>2. Download the icons below, and upload them into your subreddit. For the theme to work, you need to name the images exactly as they are named in the list.</p>
+        <p><a href="http://www.mediafire.com/file/ee8te8b3dncr6e6/icons%285%29.zip">http://www.mediafire.com/file/ee8te8b3dncr6e6/icons%285%29.zip</a></p>
+<h1>&nbsp;</h1>
+<a href="index.html"><button type="button" class="btn btn-warning">Back</button></a>
+<h1>&nbsp;</h1>
+      </ul>
+</div>
+      <!-- Footer -->
+         <div class="footer">©Sriram Krishnan, James Kerrane, and Devonnae Williams. Part of a Chingu Cohort.</div>
+
+
+  </body>
+</html>
