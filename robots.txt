@@ -1,4 +1,4 @@
 User-agent: Googlebot-Image
 
-Disallow: /images/Eddited-Demo.png
-Disallow: /images/Legere-Demo.png
+Disallow: /images
+
