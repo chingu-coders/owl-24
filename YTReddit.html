@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+  Theme - Stylesheet Generator for Reddit
+  Authors: Sriram Krishnan, James Kerrane, Devonnae Williams
+  Created: 7/20/2017
+  Team: Owl 24
+  Part of the Chingu Cohort
+-->
+
+<head>
+
+  <!-- Metadata & SEO-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Mobile Optimization -->
+  <meta name="keywords" content="Reddit, Theme, Stylesheet, CSS, Design, Custom, Easy, YTReddit"/> <!-- Page Keywords for SEO -->
+  <meta name="description" content="Theme for Reddit is a stylesheet generator, for styling a subreddit you are a moderator of." /> <!-- Description for Search Engine Readability -->
+  <meta name="author" content="Owl24 - Part of a Chingu Cohort"> <!-- Author, for SEO -->
+  <link rel="shortcut icon" href="Images\pageicon32x32"> <!-- Icon for top of page. Should be 32x32px. Not Done Yet.-->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> <!-- Get Font -->
+  <link type="text/css" rel="stylesheet" href="index.css" /> <!--Get Page CSS -->
+
+
+
+</head>
+<body>
+
+
+
+ <div class="parallax">
+   <!--GitHub Corner -->
+   <a href="https://github.com/chingu-coders/owl-24" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#70B7FD; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+   <h1>&nbsp;</h1>
+   <h1>&nbsp;</h1>
+   <h1>&nbsp;</h1>
+   <h4>&nbsp;</h4>
+   <h1 class="maintext">YTReddit Theme</h1>
+ </div>
+
+<!--    <div class="content3">-->
+<div style="text-align: center">
+      <div class="form-group">
+<h1>&nbsp;</h1>
+        <label for="ytreddit">1. Copy this CSS into your subreddit at this link: <a href="https://www.reddit.com/r/YOURSUBREDDIT/about/stylesheet">https://www.reddit.com/r/YOURSUBREDDIT/about/stylesheet</a>.</label>
+        <p>&nbsp;</p>
+
+
+
+
+        <textarea class="form-control" rows="15" cols="500" style="width:500px; id="ytreddit">
+/*With help from https://chingu-coders.github.io/owl-24/*/
+          /*==========================================================================================*/
+                                          /*HEADER*/
+/*==========================================================================================*/
+
+.dropdown.srdrop .selected {
+    font-size: 0px;
+    background-image: url(%%icon-dropdown%%);
+    background-size: contain;
+    height: 10px;
+    width: 13px;
+    position: absolute;
+    top: 19px;
+    left: 12px;
+}
+
+.dropdown.srdrop .selected:hover { background-image: url(%%icon-dropdown-hover%%); }
+
+#sr-header-area .drop-choices.srdrop {
+    margin: 46px 0px 0px 10px;
+    border: 1px solid #cccccc;
+}
+
+.drop-choices a.choice {
+    padding: 3px 4px 3px 4px;
+    color: #666666;
+}
+
+.drop-choices a.choice:hover {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+#sr-header-area {
+    background: none;
+    border: none;
+}
+
+#header {
+    background: white;
+    border-bottom: 1px solid #e8e8e8;
+    height: 50px;
+    z-index: 4;
+}
+
+#sr-header-area .sr-list, #sr-more-link { display: none; }
+
+#header-img.default-header { display: none; }
+
+#header-bottom-left { margin: -8px 0px 0px 60px; }
+
+.pagename { font-size: 0px; }
+
+.pagename a {
+    background: url(%%icon-logo%%) no-repeat;
+    display: block;
+    height: 30px;
+    width: 71px;
+    margin: -14px 0px 0px 4px;
+    text-indent: -9999px;
+}
+
+.tabmenu {
+    position: absolute;
+    top: 46px;
+    left: 333px;
+    width: calc(100% - 333px);
+    text-align: center;
+    background-color: white;
+}
+
+.tabmenu li a, .tabmenu li.selected a, .tabmenu.formtab .selected a, .tabmenu.formtab a {
+    display: inline-block;
+    background-color: white;
+    font-weight: normal;
+    color: #666666;
+    border: none;
+    border-bottom: 3px solid white;
+    padding: 14px 2px 12px 2px;
+    margin: 0px 9px 0px 9px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.tabmenu li.selected a, .tabmenu.formtab .selected a {
+    color: #333333;
+    border-bottom: 3px solid #cc181e;
+}
+
+.tabmenu li a:hover, .tabmenu.formtab a:hover { border-bottom: 3px solid #cc181e; }
+
+#search input[type=text] {
+    position: absolute;
+    top: 11px;
+    left: 230px;
+    height: 28px;
+    width: 586px;
+    z-index: 6;
+    border: 1px solid #cccccc;
+    text-transform: capitalize;
+}
+
+#search input[type=submit] {
+    position: absolute;
+    background-image: url(%%icon-search%%);
+    background-position: 23px, 0px;
+    background-color: #f8f8f8;
+    top: 11px;
+    left: 836px;
+    width: 65px;
+    height: 28px;
+    border: 1px solid #cccccc;
+    z-index: 6;
+}
+
+#search input[type=submit]:hover {
+    background-image: url(%%icon-search%%);
+    background-position: 23px, 0px;
+    background-color: #f0f0f0;
+}
+
+#header-bottom-right { background: none; }
+
+#header .user>a {
+    display: inline-block;
+    position: relative;
+    background-image: url(%%icon-profile-gray%%);
+    background-size: contain;
+    height: 25px;
+    width: 25px;
+    font-size: 0px;
+    margin: 0px 24px 8px 0px;
+}
+
+.user { font-size: 0px; }
+
+#mail {
+    position: absolute;
+    top: 10px;
+    left: calc(100% - 96px);
+}
+
+#mail.nohavemail {
+    background-image: url(%%icon-notification%%);
+    background-position: 0px 0px;
+    height: 20px;
+    width: 17px;
+    opacity: 0.5;
+}
+
+#mail.nohavemail:hover { opacity: 0.6; }
+
+#mail.havemail { background-image: none; }
+
+.message-count {
+    position: absolute;
+    top: 10px;
+    left: calc(100% - 98px);
+    background-color: #e62117;
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 10px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+#header-bottom-right .separator, #modmail, #new_modmail, #header-bottom-right .flat-list, #openRESPrefs, .logout { display: none; }
+
+.submit .morelink, .res-floater-visibleAfterScroll { display: none; }
+
+.submit-text .morelink {
+    display: block;
+    position: absolute;
+    background-image: url(%%icon-upload%%);
+    background-size: contain;
+    background-position: 0px, 0px;
+    top: 16px;
+    left: calc(100% - 156px);
+    z-index: 5;
+    height: 17px;
+    width: 14px;
+    font-size: 0px;
+    border: none;
+    opacity: 0.5;
+}
+
+.submit-text .morelink:hover { opacity: 0.6 }
+
+.nub { display: none; }
+
+/*==========================================================================================*/
+                                           /*SIDE*/
+/*==========================================================================================*/
+
+body { background-color: #f1f1f1; }
+
+.content {
+    float: right;
+    width: calc(100% - 500px);
+    margin: 52px 85px 0px 0px;
+}
+
+.side {
+    float: left;
+    margin: 0px;
+    padding: 16px;
+}
+
+.side a { color: #e62117; }
+
+.login-form-side {
+    border: none;
+    padding: 11px 0px 11px 0px;
+    margin-bottom: 16px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.infobar, #moresearchinfo, #searchexpando, .linkinfo, .gold-accent.comment-visits-box, .link .usertext-body .md {
+    border: 1px solid #cccccc;
+    border-radius: 0px;
+    background-color: #f8f8f8;
+    color: #666666;
+}
+
+.infobar, #moresearchinfo, #searchexpando {
+    padding: 16px 16px 6px 16px;
+    margin-bottom: 16px;
+}
+
+.linkinfo {
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.infobar a { color: #cc181e }
+
+.titlebox {
+    text-align: center;
+    padding: 16px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.titlebox h1 {
+    display: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.titlebox form.toggle, .leavemoderator { padding: 0px 0px 8px 0px; }
+
+.titlebox form.flairtoggle { text-align: left; }
+
+.toggle .option.active { display: inline-block; }
+
+.titlebox .fancy-toggle-button { margin-right: 0px; }
+
+.fancy-toggle-button .active {
+    padding: 4px 8px 4px 24px;
+    border: 1px solid #cccccc;
+    border-radius: 0px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.titlebox .subscribe-button .active {
+    text-transform: capitalize;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.fancy-toggle-button .add {
+    background-image: url(%%icon-subscribe%%);
+    background-repeat: no-repeat;
+    background-position: 6px, 0px;
+    background-color: #e62117;
+    padding-left: 24px;
+}
+
+.fancy-toggle-button .add:hover { background-color: #cc181e; }
+
+.fancy-toggle-button .remove {
+    background-image: url(%%icon-unsubscribe%%);
+    background-repeat: no-repeat;
+    background-position: 6px, 0px;
+    background-color: #f8f8f8;
+    padding-left: 22px;
+    color: #666666;
+}
+
+.titlebox .word { display: none }
+
+.titlebox .subscribers {
+    border: 1px solid #cccccc;
+    border-left: none;
+    padding: 2px 4px 3px 4px;
+    background-color: #f8f8f8;
+    color: #666666;
+}
+
+.users-online { color: #666666; }
+
+.users-online:before { display: none; }
+
+.titlebox .users-online span.number:after { content: " Online"; }
+
+.titlebox .bottom {
+    border: none;
+    text-align: left;
+}
+
+.sidebox.create {
+    margin-top: 16px;
+    border-top: 1px solid #cccccc;
+}
+
+.sidebox.create .spacer { display: none; }
+
+.sidebox.create .morelink, .btn, .usertext button {
+    background-image: none;
+    border: 1px solid #cccccc;
+    background-color: #f8f8f8;
+    height: 28px;
+    width: 160px;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.sidebox.create .morelink a, .btn, .usertext button {
+    color: #666666;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.sidebox.create .morelink:hover, .sidebox.create .morelink a:hover, .btn:hover, .btn a:hover, .usertext button:hover, .usertext button a:hover {
+    background-color: #e62117;
+    color: white;
+}
+
+.btn, .usertext button {
+    width: auto;
+    margin: 0px;
+    text-transform: capitalize;
+    padding: 3px 6px 3px 6px;
+    margin-right: 4px;
+}
+
+.side .spacer { margin: -1px; }
+
+.ad300x250, .sponsor-300-250 { margin-bottom: 16px; }
+
+#ad-frame, #ad_main { margin-top: 16px; }
+
+.sidecontentbox {
+    display: inline-block;
+    padding: 16px 0px 16px 0px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.sidecontentbox .content {
+    border: 1px solid #cccccc;
+    background-color: #f8f8f8;
+    color: #666666;
+}
+
+.sidecontentbox .title h1, .sidecontentbox .collapse-button {
+    margin-bottom: 4px;
+    display: inline-block;
+    font-size: 12px;
+    color: #cc181e;
+}
+
+.gadget .reddit-entry { margin: 4px 0px 0px 24px; }
+
+.gadget .click-gadget { margin-left: 4px; }
+
+.icon-menu a { background-color: transparent; }
+
+.sidecontentbox a { color: #666666; }
+
+
+/*==========================================================================================*/
+                                           /*CONTENT*/
+/*==========================================================================================*/
+
+.link, .commentarea {
+    position: relative;
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 2px;
+    min-height: 110px;
+}
+
+.link .entry {
+    margin-left: 220px;
+    max-width: calc(100% - 340px);
+}
+
+.link .thumbnail {
+    position: absolute;
+    left: 16px;
+    width: 196px;
+}
+
+.link .thumbnail.default {
+    background-image: url(%%icon-post-link%%);
+    background-position: 0px 0px;
+    height: 110px;
+    width: 196px;
+}
+
+.link .thumbnail.self {
+    background-image: url(%%icon-post-text%%);
+    background-position: 0px 0px;
+    height: 110px;
+    width: 196px;
+}
+
+.link .thumbnail img {
+    background-size: 100% 100%;
+    height: 110px;
+    width: 196px;
+}
+
+.arrow {
+    height: 16px;
+    width: 16px;
+}
+
+.arrow.up {
+    background-image: url(%%icon-like%%);
+    background-position: 0px 0px;
+    opacity: 0.5;
+}
+
+.arrow.up:hover { opacity: 0.7; }
+
+.arrow.upmod {
+    background-image: url(%%icon-like-pressed%%);
+    background-position: 0px 0px;
+    opacity: 0.7;
+}
+
+.arrow.upmod:hover { opacity: 0.9; }
+
+.arrow.down {
+    background-image: url(%%icon-dislike%%);
+    background-position: 0px 0px;
+    opacity: 0.4;
+}
+
+.arrow.down:hover { opacity: 0.6; }
+
+.arrow.downmod {
+    background-image: url(%%icon-dislike%%);
+    background-position: 0px 0px;
+    opacity: 0.7;
+}
+
+.arrow.downmod:hover { opacity: 0.9; }
+
+.link .arrow.up, .link .arrow.upmod {
+    position: absolute;
+    top: 20px;
+    left: calc(100% - 108px);
+}
+
+.link .score {
+    position: absolute;
+    top: 22px;
+    left: calc(100% - 71px);
+}
+
+.link .arrow.down, .link .arrow.downmod {
+    position: absolute;
+    top: 20px;
+    left: calc(100% - 40px);
+}
+
+.link .score.likes { color: #5aa6dc; }
+
+.link .score { color: #999999; }
+
+.link .score.dislikes { color: #4d4d4d; }
+
+.link .title {
+    color: #167ac6;
+    font-size: 14px;
+}
+
+.link .title:visited { color: #4b91c6; }
+
+.thing.stickied.link a.title {
+    font-weight: normal;
+    color: #cc181e;
+}
+
+.link .tagline {
+    display: flex;
+    font-size: 0px;
+}
+
+.commentarea a { color: #cc181e; }
+
+.link a.author, .comment .author {
+    order: -1;
+    font-size: 12px;
+    font-weight: normal;
+    color: #888888;
+}
+
+.link .tagline time { font-size: 12px; }
+
+.link .tagline time::before { content: "• "; }
+
+.edited-timestamp::before { display:none; }
+
+h1 { display: none; }
+
+.content .submit {
+    float: left;
+    margin-top: 6px;
+}
+
+.roundfield { background-color: transparent }
+
+.roundfield .title {
+    font-size: 12px;
+    color: #cc181e;
+    text-transform: uppercase;
+}
+
+.roundfield a {
+    font-size: 12px;
+    color: #888888;
+}
+
+.roundfield textarea.title, .roundfield input[type=text], .roundfield input[type=url], .roundfield input[type=password], .roundfield input[type=number], #compose-message .roundfield select {
+    text-transform: none;
+    color: black;
+    font-size: 14px;
+}
+
+.formtabs-content {
+    border: none;
+    background-color: white;
+    padding: 16px;
+}
+
+.formtabs-content .infobar {
+    border: 1px solid #cccccc;
+    background-color: #f8f8f8;
+    color: #666666;
+    padding: 16px;
+}
+
+.c-btn-primary {
+    background-color: #e62117;
+    border-color: #cc181e;
+    border-radius: 0px;
+}
+
+.c-btn-primary:hover { background-color: #cc181e; }
+
+.content.submit .info-notice { display: none; }
+
+/*==========================================================================================*/
+                                           /*EXTRA*/
+/*==========================================================================================*/
+
+.sheets .col textarea { width: 130%; }
+
+.organic-listing { display: none; }
+
+.sidecontentbox .content {
+    float: left;
+    margin: 0px;
+    width: 287px;
+}
+        </textarea>
+      </div>
+        <p>&nbsp;</p>
+        <p>2. Download the icons below, and upload them into your subreddit. For the theme to work, you need to name the images exactly as they are named in the list.</p>
+        <p><a href="http://www.mediafire.com/file/8r8xc3a0mw99qcp/icons%287%29.zip">http://www.mediafire.com/file/8r8xc3a0mw99qcp/icons%287%29.zip</a></p>
+<h1>&nbsp;</h1>
+<a href="index.html"><button type="button" class="btn btn-warning">Back</button></a>
+<h1>&nbsp;</h1>
+      </ul>
+</div>
+      <!-- Footer -->
+         <div class="footer">©Sriram Krishnan, James Kerrane, and Devonnae Williams. Part of a Chingu Cohort.</div>
+
+
+  </body>
+</html>
