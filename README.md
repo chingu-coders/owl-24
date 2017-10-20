@@ -1,5 +1,5 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Hacktoberfest](https://img.shields.io/badge/We%20%F0%9F%92%97-Hacktoberfest-orange.svg?style=flat-square)](https://hacktoberfest.digitalocean.com/)
+[![Hacktoberfest](https://img.shields.io/badge/ We%20%F0%9F%92%97-Hacktoberfest-orange.svg?style=flat-square)](https://hacktoberfest.digitalocean.com/)
 # Theme for Reddit - by owl24
 Theme for Reddit is an app to make styling your subreddit easier. Demo loacted [here](https://chingu-coders.github.io/owl-24/).
 
