@@ -16,7 +16,6 @@ The following is a set of guidelines for contributing to SLR. These are mostly g
 
 [Styleguides](#styleguides)
   * [Git Commit Messages](#git-commit-messages)
-  * [JavaScript Styleguide](#javascript-styleguide)
 
 [Additional Notes](#additional-notes)
   * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
@@ -105,25 +104,6 @@ Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com
     * :memo: `:memo:` when writing docs
     * :bug: `:bug:` when fixing a bug
     * :fire: `:fire:` when removing code or files
-
-### JavaScript Styleguide
-
-All JavaScript must adhere to [JavaScript Standard Style](http://standardjs.com/).
-
-* Prefer the object spread operator (`{...anotherObj}`) to `Object.assign()`
-* Inline `export`s with expressions whenever possible
-  ```js
-  // Use this:
-  export default class ClassName {
-
-  }
-
-  // Instead of:
-  class ClassName {
-
-  }
-  export default ClassName
-  ```
 
 ## Additional Notes
 
