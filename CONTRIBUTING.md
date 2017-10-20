@@ -1,4 +1,5 @@
-# Contributing to Stylesheet Library for Reddit (CONTRIBUTING.md forked from [atom/atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md).
+# Contributing to Stylesheet Library for Reddit 
+(CONTRIBUTING.md forked from [atom/atom])
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
