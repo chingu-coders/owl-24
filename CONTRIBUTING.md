@@ -5,7 +5,7 @@ CONTRIBUTING.md forked from [atom/atom](https://github.com/atom/atom/blob/master
 
 The following is a set of guidelines for contributing to SLR. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
-**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+>**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 
 #### Table Of Contents
 
