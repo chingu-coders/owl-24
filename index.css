@@ -86,18 +86,8 @@ margin: 0;
 .bg{
     background-position:center center;
     background-repeat:no-repeat;
-    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    background-size:cover; /* change this to "contain" if you don't want the images to be cropped */
     color:#fff;
-}
-
-.img1{
-    background-image: url('https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg');
-}
-.img2{
-    background-image: url('https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg');
-}
-.img3{
-    background-image: url('https://farm4.staticflickr.com/3794/13893055574_3df0ab636b.jpg');
 }
 
 img:hover {
@@ -121,4 +111,12 @@ img:hover {
 a { /* Fix text underlining */
   color: blue;
   text-decoration: none; /* no underline */
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
