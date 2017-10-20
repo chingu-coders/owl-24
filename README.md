@@ -1,3 +1,4 @@
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 # Theme for Reddit - by owl24
 Theme for Reddit is an app to make styling your subreddit easier. Demo loacted [here](https://chingu-coders.github.io/owl-24/).
 
