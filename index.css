@@ -7,91 +7,92 @@
 */
 
 body, html {
-    height: 100%;
-    font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("http://www.pardot.com/content/uploads/2015/10/shutterstock_2838263571.jpg");
-
-  filter:sepia(100%);
-
-
-    /* Full height */
-    height: 50%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* The image used */
+  background-image: url("http://www.pardot.com/content/uploads/2015/10/shutterstock_2838263571.jpg");
+  filter: sepia(100%);
+  /* Full height */
+  height: 50%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-@media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
 
+@media only screen and (max-device-width: 1024px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
 
 .maintext {
   font-size: 60px;
   text-align: center;
   color: black;
   background-color: white;
-  font-family: 'Open Sans', sans-serif;}
+  font-family: 'Open Sans', sans-serif;
+}
 
 * {
-margin: 0;
+  margin: 0;
 }
 
 html {
-margin: 0;
+  margin: 0;
 }
 
 body {
-margin: 0;
+  margin: 0;
 }
 
 .square {
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    background-color:	#FF7F50;
-    overflow:hidden;
+  float: left;
+  position: relative;
+  width: 30%;
+  padding-bottom: 30%;
+  /* = width for a 1:1 aspect ratio */
+  margin: 1.66%;
+  background-color: #FF7F50;
+  overflow: hidden;
 }
 
 .content {
-    position:absolute;
-    height:90%; /* = 100% - 2*5% padding */
-    width:90%; /* = 100% - 2*5% padding */
-    padding: 5%;
-
+  position: absolute;
+  height: 90%;
+  /* = 100% - 2*5% padding */
+  width: 90%;
+  /* = 100% - 2*5% padding */
+  padding: 5%;
 }
 
 /*  For responsive images */
 
-.content .rs{
-    width:auto;
-    height:auto;
-    max-height:90%;
-    max-width:100%;
+.content .rs {
+  width: auto;
+  height: auto;
+  max-height: 90%;
+  max-width: 100%;
 }
+
 /*  For responsive images as background */
 
-.bg{
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover; /* change this to "contain" if you don't want the images to be cropped */
-    color:#fff;
+.bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* change this to "contain" if you don't want the images to be cropped */
+  color: #fff;
 }
 
 img:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /**
@@ -99,18 +100,19 @@ img:hover {
  */
 
 .footer {
-   right: 0;
-   bottom: 0;
-   left: 0;
-   padding: 1rem;
-   background-color: #efefef;
-   text-align: center;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
 
-
-a { /* Fix text underlining */
+a {
+  /* Fix text underlining */
   color: blue;
-  text-decoration: none; /* no underline */
+  text-decoration: none;
+  /* no underline */
 }
 
 .centered {

@@ -12,34 +12,34 @@ document.getElementById('Themes').addEventListener('change', function () {
     document.getElementById('about').className='hidden';
 
     var el=document.getElementById('Themes');
-   
+
     var style=[];
 
     for(var i=0;i<el.options.length;i++)
     {
     	 style[i] = el.options[i].value == el.selectedIndex ? 'block' : 'none';
-    
-    	if(document.getElementById(el.options[i].innerHTML)!==null)	
+
+    	if(document.getElementById(el.options[i].innerHTML)!==null)
     	 document.getElementById(el.options[i].innerHTML).style.display = 'none';
 
     }
- 	
- 	document.getElementById(el.options[el.selectedIndex].innerHTML).style.display = style[el.selectedIndex];    
-   
+
+ 	document.getElementById(el.options[el.selectedIndex].innerHTML).style.display = style[el.selectedIndex];
+
 });
 
 
-	
+
 
 $('#legere').click(function(){
- 
+
   document.getElementById('about').className='unhidden';
   		$("#about").load("legere.html");
- 
-  });  
+
+  });
 
 $('#FBRT').click(function(){
  document.getElementById('about').className='unhidden';
   		$("#about").load("fbrt.html");
- 
-  }); 
+
+  });
