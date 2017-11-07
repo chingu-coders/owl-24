@@ -70,7 +70,6 @@ body {
   width: 90%;
   /* = 100% - 2*5% padding */
   padding: 5%;
-
 }
 
 /*  For responsive images */
@@ -116,30 +115,18 @@ a {
   /* no underline */
 }
 
-.centered {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-  position: relative;
-}
-
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out
 }
 
 @keyframes octocat-wave {
-  0%,
-  100% {
+  0%, 100% {
     transform: rotate(0)
   }
-  20%,
-  60% {
+  20%, 60% {
     transform: rotate(-25deg)
   }
-  40%,
-  80% {
+  40%, 80% {
     transform: rotate(10deg)
   }
 }
@@ -151,4 +138,18 @@ a {
   .github-corner .octo-arm {
     animation: octocat-wave 560ms ease-in-out
   }
+}
+
+.intro-text {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered {
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
 }
