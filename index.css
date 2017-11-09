@@ -13,7 +13,7 @@ body, html {
 
 .parallax {
   /* The image used */
-  background-image: url("http://www.pardot.com/content/uploads/2015/10/shutterstock_2838263571.jpg");
+  background-image: url(Images/owl-24-spash.jpg);
   filter: sepia(100%);
   /* Full height */
   height: 50%;
