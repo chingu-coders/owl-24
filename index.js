@@ -49,3 +49,58 @@ function sequentOnClick() {
 function sequentClose() {
   document.getElementById('sequentModal').style.display = "none";
 }
+
+//Apicem
+// When the user clicks the button, open the modal
+function apicemOnClick() {
+  document.getElementById('apicemModal').style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+function apicemClose() {
+  document.getElementById('apicemModal').style.display = "none";
+}
+
+//Focus
+// When the user clicks the button, open the modal
+function focusOnClick() {
+  document.getElementById('focusModal').style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+function focusClose() {
+  document.getElementById('focusModal').style.display = "none";
+}
+
+//ClearShift
+// When the user clicks the button, open the modal
+function clearShiftOnClick() {
+  document.getElementById('clearShiftModal').style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+function clearShiftClose() {
+  document.getElementById('clearShiftModal').style.display = "none";
+}
+
+//YTReddit
+// When the user clicks the button, open the modal
+function ytRedditOnClick() {
+  document.getElementById('ytRedditModal').style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+function ytRedditClose() {
+  document.getElementById('ytRedditModal').style.display = "none";
+}
+
+//Apicem Light
+// When the user clicks the button, open the modal
+function apicemLightOnClick() {
+  document.getElementById('apicemLightModal').style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+function apicemLightClose() {
+  document.getElementById('apicemLightModal').style.display = "none";
+}
